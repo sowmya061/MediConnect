@@ -1,0 +1,646 @@
+#navbar {
+  background-color: #125d98;
+  color: #FFF;
+}
+.navText {
+  font-weight:bold;
+}
+.homeimage {
+	width: 100%;
+	height: 600px;
+}
+.AppointmentContainer {
+  background-color: #C4C4C4;
+  width: 500px;
+  height: 200px;
+  margin: 20px 50px 200px 50px;
+}
+.headerText {
+  background-image: url("new.jpg");
+  color: #000;
+  font-weight: bold;
+  font-family: 'Roboto Condensed Sans Serif';
+}
+#footer {
+  margin-bottom: 0px;
+  padding-top: 5px;
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  background-color: #125d98;
+  color: #FFF;
+}
+.loginpage {
+  padding-left: 530px;
+  background-color: #125d98;
+  padding-bottom: 330px;
+}
+.favv {
+  color: #fff;
+  text-align: left;
+  padding-left: 110px;
+  padding-bottom: 10px;
+}
+.favvOne {
+  text-align: left;
+  color: #fff;
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+#formContent {
+  padding-top: 15px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formContentBook {
+  padding-top: 15px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formContentRegister {
+  margin-bottom: 100px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formContentLogin {
+  margin-bottom: 100px;
+  padding-top: 15px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #F6F6F2;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* TABS */
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #125d98;
+}
+
+/* FORM TYPOGRAPHY*/
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #125d98;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 #125d98;
+  box-shadow: 0 10px 30px 0 #125d98;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #125d98;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.SearchDoc,
+input[type=email],
+input[type=password],
+input[type=text] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.SearchDoc,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #125d98;
+}
+
+.SearchDoc,
+input[type=email],
+input[type=password],
+input[type=text]:placeholder {
+  color: #cccccc;
+}
+
+/* ANIMATIONS */
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  padding-top: 150px;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #125d98;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #125d98;
+}
+
+.underlineHover:hover:after {
+  width: 100%;
+}
+
+/* OTHERS */
+*:focus {
+  outline: none;
+}
+
+#icon {
+  width: 60%;
+}
+
+.usernames {
+  font-weight: bold;
+}
+
+#custom-button {
+  padding: 10px;
+  color: white;
+  background-color: #125d98;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: #125d98;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+#AboutUs {
+  padding: 0px 0px 100px 0px;
+}
+.AboutUsText {
+	text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 15px 0px 30px 0px;
+}
+.wrapper {
+	padding-top: 50px;
+}
+.aboutUsImg {
+  height: 100px;
+  float: right;
+}
+#ContactUs {
+  background-color: #125d98;
+  padding: 50px 0px 50px 550px;
+}
+.insideText {
+  font-weight: bold;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.container {
+  border-radius: 7px;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  text-align: center;
+  color: #000;
+  box-shadow: 5px 10px #888888;
+  background-color: #C4C4C4;
+}
+
+.secret-text {
+  padding-left: 20px;
+  text-align: left;
+}
+
+#testimonials{
+  text-align: center;
+  background-image: image("new.jpg");
+  color: #000;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.imagee {
+  font-size: 4rem;
+}
+.headerP {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 230px;
+}
+.carouselTexterrr {
+  padding-bottom: 200px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.skill-row{
+  font-size: 1.3rem;
+  margin-left: 200px;
+  width: 70%;
+  font-weight: bold;
+  text-align: left;
+}
+.web{
+  border-radius: 110px;
+  margin-left: 100px;
+  height: 200px;
+  float: right;
+}
+#AppointmentBooking {
+  background-color: #125d98;
+  padding: 50px 0px 150px 550px;
+}
+.insideText {
+  font-weight: bold;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+.SearchDoc{
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+
+}
+.SearchDoc:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #125d98;
+}
+
+.SearchDoc:placeholder {
+  color: #cccccc;
+}
+
+.info {
+  font-weight: bold;
+  border-radius: 20px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.info:hover {
+  background: #fff;
+  color: #125d98;
+  border-color: #125d98;
+}
+
+@media (max-width: 900px) {
+  #formContent {
+    right: 340px;
+    width: 350px;
+  }
+  #formContentBook {
+    right: 320px;
+    width: 400px;
+  }
+  #formContentRegister {
+    margin-top: 60px;
+    right: 330px;
+    width: 350px;
+  }
+  #formContentLogin {
+    margin-top: 60px;
+    right: 300px;
+    width: 350px;
+  }
+  .web {
+    padding-right: 270px;
+    position: relative;
+    border-radius: 0px;
+    padding-bottom: 30px;
+  }
+  .textt {
+    padding-right: 170px;
+  }
+  .skill-row {
+    text-align: left;
+    border-bottom: 0px;
+    width: 70%;
+    right: 200px;
+  }
+  .favv {
+    color: transparent;
+  }
+  .favvOne {
+    color: transparent;
+  }
+}
+
+
+
+.vaccineText {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  color: #125d98;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+.accordion {
+  position: relative;
+  margin: 60px auto;
+  width: 80%;
+  padding-bottom: 150px;
+}
+[id*="open-accordion"], [id*="close-accordion"] {
+  background: #125d98;
+  border-bottom: 1px solid #125d98;
+  line-height: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 99%;
+}
+
+[id*="close-accordion"] {
+  display: none;
+}
+
+.accordion a {
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-left: 2%;
+  text-decoration: none;
+  text-shadow: none;
+
+}
+
+.accordion p {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+[id*="open-accordion"]:after, [id*="close-accordion"]:after {
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(255, 255, 255, 0.6);
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  z-index: 999;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.target-fix {
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.accordion-content {
+  background: #CEE5D0;
+  height: 0;
+  margin: -1px auto 0;
+  padding: 0 2.5%;
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+}
+
+.accordion span:target ~ .accordion-content {
+  display: block;
+  height: auto;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+.accordion span:target ~ [id*="close-accordion"] {
+  display: block;
+}
+
+.accordion span:target ~ [id*="open-accordion"] {
+  display: none;
+}
+
+.accordion span:target ~ [id*="close-accordion"]:after {
+  border-top: 10px solid #333;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}

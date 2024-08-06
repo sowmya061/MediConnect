@@ -1,0 +1,32 @@
+<%- include("partials/header"); -%>
+
+<!--Navbar starts -->
+<section id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand navText" href="">MediConnect</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn info" href="/book">Book Appointment</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+  <div class="container">
+    <h2><b>MY APPOINTMENT</b></h2>
+      <p class="secret-text">NAME:  <%=user.name%></p>
+      <p class="secret-text">EMAIL ID:  <%=user.username%></p>
+      <p class="secret-text">PHONE NUMBER:  <%=user.phone%></p>
+      <p class="secret-text">APPOINTMENT SPECIALIST:  <%=user.doctor%></p>
+      <p class="secret-text">APPOINTMENT TAKEN FOR:  <%=user.date%></p>
+      <p class="secret-text">APPOINTMENT TIME:  <%=user.time%> IST</p>
+      <p class="secret-text">MEDICAL HISTORY:  <%=user.medic%></p>
+  </div>
+<%- include("partials/footer"); -%>
