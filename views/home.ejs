@@ -1,0 +1,98 @@
+<%- include("partials/header"); -%>
+
+<section id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand navText" href="">MediConnect</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#AboutUs">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ContactUs">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn info" href="/faq">Vaccine FAQ's</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+<!-- Navbar ends-->
+
+<!-- Image carousel starts-->
+<section id="testimonials">
+  <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 homeimage" src="new.jpg" alt="First slide">
+        <div class="carousel-caption">
+          <div class="carouselTexterrr">
+            <h2 class="imagee"><b>WELCOME TO MediConnect</b></h2>
+            <p>One place destination for all your appointments!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 homeimage" src="img.jpg" alt="First slide">
+        <div class="carousel-caption">
+          <div class="carouselTexterrr">
+            <h2 class="imagee"><b>WELCOME TO MediConnect</b></h2>
+            <p>One place destination for all your appointments!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</section>
+<!-- Image carousel ends-->
+
+<!--About Us starts-->
+<section id="AboutUs">
+  <h2 class="AboutUsText">About Us</h2>
+  <div class="skill-row">
+    <img class="web" src="abt.jpg" alt="c++-img">
+    <p class="textt">MediConnect is an online platform for doctors and patients
+      for appointment booking and time scheduling.
+      This initiative has been started to help the small clinics and hospitals in controlling the crowd coming at the
+      hospital for medications.
+      It allows patients to place their booking at a time that is most convenient for them.
+      They can make their booking at any point of time, whether day or night,
+      without having to worry if its within working hours or not.
+    </p>
+  </div>
+</section>
+<!--About Us ends-->
+
+<!-- Contact Us starts -->
+<section id="ContactUs">
+  <div id="formContent">
+    <br>
+    <h2 style="color: #125d98">CONTACT US</h2>
+    <form action="mailto: muskan.12012000@gmail.com " method="post">
+      <input type="text" id="namee" class="fadeIn second" name="username" placeholder="Enter name">
+      <input style="height: 100px;" type="text" id="messagee" class="fadeIn third" name="password" placeholder="Enter message">
+      <br>
+      <input type="submit" class="fadeIn fourth" value="Submit Feedback">
+    </form>
+  </div>
+</section>
+<!-- Contact Us ends -->
+
+<%- include("partials/footer"); -%>

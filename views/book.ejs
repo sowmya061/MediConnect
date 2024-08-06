@@ -1,0 +1,29 @@
+<%- include("partials/header"); -%>
+<section id="AppointmentBooking">
+  <div class="wrapper fadeInDown">
+    <div id="formContentBook">
+      <br>
+      <h2 style="color: #125d98">Appointment Booking</h2>
+      <form action="/book" method="POST">
+        <input type="text" id="namee" class="fadeIn second" name="name" placeholder="Enter name">
+        <input class="SearchDoc fadeIn fourth" type="text" name="phone" placeholder="Enter phone number">
+        <select class="SearchDoc fadeIn fourth" id="Doctors" name="doctors">
+          <option value="None">Choose Department</option>
+          <option value="None">Dermatologist</option>
+          <option value="Cardiologist">Cardiologist</option>
+          <option value="Audiologist">Audiologist</option>
+          <option value="Dentist">Dentist</option>
+          <option value="Gynaecologist">Gynaecologist</option>
+          <option value="Orthopaedic">Orthopaedic</option>
+          <option value="Paediatrician">Paediatrician</option>
+          <option value="Psychiatrists">Psychiatrists</option>
+        </select>
+        <input class="SearchDoc fadeIn fourth" type="date" name="date" value="" required></input>
+        <input class="SearchDoc fadeIn fourth" type="time" name="time" value="" required></input>
+        <input type="text" id="namee" class="fadeIn second" name="medic" placeholder="Enter medical history">
+        <input type="submit" class="fadeIn fourth" value="Book Appointment">
+      </form>
+    </div>
+  </div>
+</section>
+<%- include("partials/footer"); -%>
